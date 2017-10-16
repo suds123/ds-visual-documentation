@@ -1,12 +1,60 @@
 [
   {
-    "name": "2.0",
+    "name": "MI",
     "url": "2.0.json",
     "root": "Swagger Object",
     "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#"
   },
   {
-    "name": "3.0.0-RC0",
+    "name": "POS",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Content",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "3rd-Party",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Self-service",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Ecosystem",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Merchant-Admin",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "WP-Adin",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Identity",
+    "url": "3.0.0-rc0.json",
+    "root": "OpenAPI Object",
+    "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
+  },
+  {
+    "name": "Shared-service",
     "url": "3.0.0-rc0.json",
     "root": "OpenAPI Object",
     "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
