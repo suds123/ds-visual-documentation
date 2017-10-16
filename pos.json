@@ -10,7 +10,7 @@
             "description": "Sales & Transactions services"
         }, {
             "name": "catalogue",
-            "type": "catalogue",
+            "type": "Catalogue",
             "description": "Catalogue services."
         }, {
             "name": "cash drawer",
