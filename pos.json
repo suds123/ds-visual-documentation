@@ -581,16 +581,11 @@
             "description": "Configuration for the OAuth Authorization Code flow. Previously called accessCode in OpenAPI 2.0."
         }]
     },
-    "POS services": {
+    "Top object": {
         "name": "POS services",
         "specificationAnchor": "oasObject",
         "description": "POS services top level object.\nThis is the root document object for the visual documentation.\n",
         "allowExtension": false,
-        "changelog": {
-            "isModified": false,
-            "details": "The new OpenAPI specification version 3.0.0 offers many welcomed improvements and new features (see OpenAPI [blog post series about this](https://www.openapis.org/news/blogs/2016/10/tdc-structural-improvements-explaining-30-spec-part-2)).\n\nHere are the noticeable changes on top level (*navigate through the tree to see what happened on other levels*): \n- Bye bye `swagger` and hello `openapi`.\n- Reusable definitions are centralized in `components` making the document more consistent (the previous version mixed reusable and global definitions on the same level).\n",
-            "deletedProperties": []
-        },
         "fields": [{
             "name": "sales & transactions",
             "type": "Info Object",
