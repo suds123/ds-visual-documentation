@@ -581,7 +581,7 @@
             "description": "Configuration for the OAuth Authorization Code flow. Previously called accessCode in OpenAPI 2.0."
         }]
     },
-    "Top object": {
+    "POS Services": {
         "name": "POS services",
         "specificationAnchor": "oasObject",
         "description": "POS services top level object.\nThis is the root document object for the visual documentation.\n",
