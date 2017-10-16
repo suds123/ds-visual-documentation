@@ -42,7 +42,7 @@
     "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
   },
   {
-    "name": "WP-Adin",
+    "name": "WP-Admin",
     "url": "3.0.0-rc0.json",
     "root": "OpenAPI Object",
     "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
