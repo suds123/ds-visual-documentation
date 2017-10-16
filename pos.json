@@ -581,97 +581,46 @@
             "description": "Configuration for the OAuth Authorization Code flow. Previously called accessCode in OpenAPI 2.0."
         }]
     },
-    "Top Object": {
+    "POS services": {
         "name": "POS services",
         "specificationAnchor": "oasObject",
-        "description": "POS services top level object.\nThis is the root document object for the visual documentation. It combines what previously was the Resource Listing and API Declaration (version 1.2 and earlier) together into one document.\n",
-        "allowExtension": true,
+        "description": "POS services top level object.\nThis is the root document object for the visual documentation.\n",
+        "allowExtension": false,
         "changelog": {
-            "isModified": true,
+            "isModified": false,
             "details": "The new OpenAPI specification version 3.0.0 offers many welcomed improvements and new features (see OpenAPI [blog post series about this](https://www.openapis.org/news/blogs/2016/10/tdc-structural-improvements-explaining-30-spec-part-2)).\n\nHere are the noticeable changes on top level (*navigate through the tree to see what happened on other levels*): \n- Bye bye `swagger` and hello `openapi`.\n- Reusable definitions are centralized in `components` making the document more consistent (the previous version mixed reusable and global definitions on the same level).\n",
-            "deletedProperties": [{
-                "name": "swagger",
-                "replacedBy": "openapi",
-                "see": "OpenAPI Object"
-            }, {
-                "name": "host",
-                "replacedBy": "servers[].url",
-                "see": "Server Object"
-            }, {
-                "name": "basePath",
-                "replacedBy": "servers[].url",
-                "see": "Server Object"
-            }, {
-                "name": "schemes",
-                "replacedBy": "servers[].url",
-                "see": "Server Object"
-            }, {
-                "name": "definitions",
-                "replacedBy": "components.schemas",
-                "see": "Components Object"
-            }, {
-                "name": "parameters",
-                "replacedBy": "components.parameters and components.requestBodies",
-                "see": "Components Object"
-            }, {
-                "name": "securityDefinitions",
-                "replacedBy": "components.securitySchemas",
-                "see": "Components Object"
-            }, {
-                "name": "consumes",
-                "replacedBy": "Content Object.{media type}",
-                "see": "Content Object"
-            }, {
-                "name": "produces",
-                "replacedBy": "Content Object.{media type}",
-                "see": "Content Object"
-            }]
+            "deletedProperties": []
         },
         "fields": [{
-            "name": "openapi",
-            "type": "string",
-            "required": true,
-            "changelog": {
-                "isNew": true,
-                "details": "Replace the `swagger` property"
-            },
-            "description": "Specifies the OpenAPI Specification version being used. It can be used by tooling Specifications and clients to interpret the version. The structure SHALL be `major.minor.patch`, where `patch` versions MUST be compatible with the existing `major.minor` tooling. Typically `patch` versions will be introduced to address errors in the documentation, and tooling SHOULD typically be compatible with the corresponding `major.minor` (3.0.*). Patch versions will correspond to patches of this document.\n"
-        }, {
-            "name": "info",
+            "name": "sales & transactions",
             "type": "Info Object",
             "required": true,
-            "description": "Provides metadata about the API. The metadata can be used by the clients if needed."
+            "description": "Sales & Transactions services"
         }, {
-            "name": "servers",
+            "name": "catalogue",
             "type": "[Server Object]",
-            "description": "An optional array of Server Objects which provide connectivity information to a target server.",
-            "changelog": {
-                "isNew": true
-            }
+            "description": "Catalogue services."
         }, {
-            "name": "paths",
+            "name": "cash drawer",
             "type": "Paths Object",
             "required": true,
-            "description": "Required. The available paths and operations for the API."
+            "description": "Cash drawer services."
         }, {
-            "name": "components",
+            "name": "setup",
             "type": "Components Object",
-            "description": "An element to hold various schemas for the specification.",
-            "changelog": {
-                "isNew": true
-            }
+            "description": "Setup services."
         }, {
-            "name": "security",
+            "name": "client",
             "type": "[Security Requirement Object]",
-            "description": "A declaration of which security mechanisms can be used across the API. The list of values includes alternative security requirement objects that can be used. Only one of the security requirement objects need to be satisfied to authorize a request. Individual operations can override this definition."
+            "description": "Client services."
         }, {
-            "name": "tags",
+            "name": "settings",
             "type": "[Tag Object]",
-            "description": "A list of tags used by the specification with additional metadata. The order of the tags can be used to reflect on their order by the parsing tools. Not all tags that are used by the Operation Object must be declared. The tags that are not declared MAY be organized randomly or based on the tools' logic. Each tag name in the list MUST be unique."
+            "description": "Setting services e.g. user-preference, subscription, etc."
         }, {
-            "name": "externalDocs",
-            "type": "External Documentation Object",
-            "description": "Additional external documentation."
+            "name": "identity",
+            "type": "[Tag Object]",
+            "description": "Identity services."
         }]
     },
     "Operation Object": {
