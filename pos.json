@@ -581,10 +581,10 @@
             "description": "Configuration for the OAuth Authorization Code flow. Previously called accessCode in OpenAPI 2.0."
         }]
     },
-    "OpenAPI Object": {
-        "name": "OpenAPI 3.0.0-rc0",
+    "Top Object": {
+        "name": "POS services",
         "specificationAnchor": "oasObject",
-        "description": "OpenAPI 3.0.0 top level object.\nThis is the root document object for the API specification. It combines what previously was the Resource Listing and API Declaration (version 1.2 and earlier) together into one document.\n",
+        "description": "POS services top level object.\nThis is the root document object for the visual documentation. It combines what previously was the Resource Listing and API Declaration (version 1.2 and earlier) together into one document.\n",
         "allowExtension": true,
         "changelog": {
             "isModified": true,
