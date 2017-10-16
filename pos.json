@@ -41,7 +41,6 @@
             "fields": [{
                 "name": "v1/catalogue",
                 "type": "v1/catalogue",
-                "required": true,
                 "description": "Catalogue"
             }, {
                 "name": "v1/catalogue/{id}",
@@ -50,7 +49,6 @@
             }, {
                 "name": "v1/images",
                 "type": "string",
-                "required": true,
                 "description": "Images"
             }]
     },
