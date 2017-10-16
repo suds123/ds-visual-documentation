@@ -7,8 +7,8 @@
   },
   {
     "name": "POS",
-    "url": "3.0.0-rc0.json",
-    "root": "OpenAPI Object",
+    "url": "pos.json",
+    "root": "Top Object",
     "specificationurl": "https://github.com/OAI/OpenAPI-Specification/blob/3.0.0-rc0/versions/3.0.md#"
   },
   {
