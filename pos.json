@@ -4,7 +4,7 @@
         "description": "POS services top level object.\nThis is the root document object for the visual documentation.\n",
         "allowExtension": false,
         "fields": [{
-            "name": "sales & transactions",
+            "name": "sales",
             "type": "string",
             "required": true,
             "description": "Sales & Transactions services"
